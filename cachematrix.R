@@ -1,5 +1,5 @@
 ## First function caches the matrix inverse while the second one computes an inverse of the matrix outputted by makeCacheMatrix
-
+##makeCacheMatrix function caches the matrix inverse
 makeCacheMatrix <- function(x = matrix()) {
 
 m <- NULL
@@ -16,7 +16,7 @@ m <- NULL
  
 }
 
-
+##cacheSolve function computes the inverse of the special "matrix" returned by makeCacheMatrix above
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
